@@ -37,6 +37,10 @@ a {
     background: #171100;
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
+
 /* ===============header=============== */
 .header {
     background: #FFFCF4;
@@ -45,6 +49,7 @@ a {
 .header.fixed {
     position: sticky;
     top: -28px;
+    z-index: 1;
 }
 
 .header .body {
@@ -92,4 +97,161 @@ a {
 
 .header .action {
     margin-left: 59px;
+}
+
+/* ===============hero=============== */
+.hero {
+    padding-top: 57px;
+    background: #FFFCF4;
+}
+
+.hero .body {
+    display: flex;
+}
+
+.hero .media-block {
+    position: relative;
+    display: flex;
+    width: 48.7%;
+
+}
+
+.hero .content-block {
+    width: 40.1%;
+    margin: 46px 0 0 130px;
+}
+
+.hero .media-block .hero-img {
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    /* Cắt ảnh để vừa khung mà không méo */
+}
+
+.hero .hero-summary {
+    position: absolute;
+    right: 0;
+    bottom: 48px;
+    width: 270px;
+    height: 244px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+}
+
+.hero .hero-summary .item {
+    display: flex;
+    align-items: center;
+}
+
+.hero .hero-summary .item+.item {
+    margin-top: 14px;
+}
+
+.hero .icon {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .icon-des {
+    background-color: #FFF9E8;
+}
+
+.hero .icon-dev {
+    background-color: #FCEFFF;
+}
+
+.hero .icon-mar {
+    background-color: #EBEAFF;
+}
+
+.hero .info {
+    margin-left: 16px;
+}
+
+.hero .info .label {
+    color: #5F5B53;
+    font-size: 1.4rem;
+    line-height: 1.86;
+}
+
+.hero .info .title {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.hero .content-block .heading {
+    color: #171100;
+    font-family: Sen;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -1.16px;
+    margin-bottom: 28px;
+}
+
+.hero .content-block .desc {
+    color: #5F5B53;
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+
+.hero .btn-see-courses {
+    min-width: 180px;
+    line-height: 64px;
+    border-radius: 32px;
+    background: #FFB900;
+}
+
+.hero .cta-group {
+    display: flex;
+    margin-top: 38px;
+    margin-bottom: 48px;
+}
+
+.hero .cta-group .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.hero .cta-group .watch-video {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    margin-left: 28px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero .cta-group .watch-video span {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.hero .content-block:last-child {
+    margin-top: 8px;
+}
+
+.hero .content-block strong {
+    color: #171100;
+    font-family: Sen;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.23;
+}
+
+.hero .content-block strong+strong {
+    margin-left: 28px;
 }
