@@ -265,7 +265,7 @@ a {
 
 /* ===============courses=============== */
 .courses {
-    padding-top: 200px;
+    padding: 200px 0;
 }
 
 .courses .header-courses {
@@ -397,4 +397,77 @@ a {
 
 .courses .course .product-card .btn-book-now:hover {
     background-color: var(--primary-color);
+}
+
+
+/* ===============testimonial=============== */
+.testimonial {
+    padding: 96px 0;
+    background-color: #2E2100;
+}
+
+.testimonial .body {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial .left .img-avata {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 18px;
+}
+
+.testimonial .left .author-name {
+    color: #F7F7F7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.42;
+    margin-bottom: 4px;
+}
+
+.testimonial .left .author-desc {
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    margin-bottom: 28px;
+}
+
+.testimonial .left .dots {
+    display: flex;
+    width: 30px;
+    justify-content: space-between;
+}
+
+.testimonial .left .dots .dot {
+    height: 6px;
+    width: 6px;
+    background-color: #634700;
+    border-radius: 50%;
+}
+
+.testimonial .left .dots .dot.active {
+    background-color: var(--primary-color);
+}
+
+.testimonial .right {
+    margin-left: auto;
+    max-width: 63.2%;
+    height: 160px;
+    position: relative;
+}
+
+.testimonial .right .author-quotes {
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.54;
+}
+
+.testimonial .right .open-quotes {
+    position: absolute;
+    left: -30px;
+    top: -28px;
 }
