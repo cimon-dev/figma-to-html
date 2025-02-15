@@ -45,6 +45,15 @@ a {
     opacity: 0.9;
 }
 
+.title-h2 {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26;
+    letter-spacing: -0.76px;
+}
+
 /* ===============header=============== */
 .header {
     background: #FFFCF4;
@@ -275,12 +284,6 @@ a {
 }
 
 .courses .header-courses .left .title {
-    color: #171100;
-    font-family: Sen;
-    font-size: 3.8rem;
-    font-weight: 700;
-    line-height: 1.26;
-    letter-spacing: -0.76px;
     padding-bottom: 16px;
 }
 
@@ -470,4 +473,106 @@ a {
     position: absolute;
     left: -30px;
     top: -28px;
+}
+
+/* ===============features=============== */
+.features {
+    padding-top: 200px;
+}
+
+.features .body {
+    display: flex;
+    height: 438px;
+}
+
+.features .images {
+    position: relative;
+    display: flex;
+}
+
+.features .images .img1 {
+    left: 0;
+    bottom: 0;
+}
+
+.features .images .img2 {
+    left: 300px;
+    top: 0;
+}
+
+.features .images img {
+    position: absolute;
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    max-width: 40.2%;
+}
+
+.features .content .title {
+    margin-bottom: 16px;
+}
+
+.features .content .desc {
+    color: #5F5B53;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin-bottom: 16px;
+}
+
+.features .content .btn-sign-up {
+    margin-top: 16px;
+    max-width: 137px;
+    line-height: 50px;
+    background: var(--primary-color);
+}
+
+.features-2 .body {
+    display: flex;
+    margin-top: 200px;
+}
+
+.features-2 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 48.7%;
+}
+
+.features-2 .content .title {
+    margin-bottom: 16px;
+}
+
+.features-2 .content .desc {
+    color: #5F5B53;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin-bottom: 16px;
+}
+
+.features-2 .content .btn-sign-up {
+    margin-top: 16px;
+    max-width: 137px;
+    line-height: 50px;
+    background: var(--primary-color);
+}
+
+.features-2 .images {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.features-2 .images img {
+    width: 470px;
+    height: 440px;
+    border-radius: 20px;
+    object-fit: cover;
 }
