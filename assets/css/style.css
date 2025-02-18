@@ -332,7 +332,7 @@ a {
 
 .courses .course:hover {
     box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
-    border: none;
+    /* border: none; */
 }
 
 .courses .course .course-img {
@@ -711,6 +711,8 @@ a {
 
 .footer .body {
     display: flex;
+    border-bottom: 1px solid #59554B;
+    padding-bottom: 38px;
 }
 
 .footer .column.lesson {
@@ -765,11 +767,6 @@ a {
     font-weight: 600;
 }
 
-.footer .body {
-    border-bottom: 1px solid #59554B;
-    padding-bottom: 38px;
-}
-
 .footer .copyright {
     margin-top: 28px;
     text-align: center;
@@ -777,4 +774,10 @@ a {
     font-size: 1.4rem;
     line-height: 1.86;
     /* 185.714% */
+}
+
+.footer .list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
